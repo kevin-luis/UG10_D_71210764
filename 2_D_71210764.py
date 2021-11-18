@@ -1,5 +1,5 @@
 #Variabel Input
-import math
+
 a = float(input("Nilai a :"))
 b = float(input("Nilai b :")) 
 c = float(input("Niali c :"))
@@ -13,7 +13,6 @@ if D == 0 :
 
 elif D < 0 :
     print("Fungsi tersebut tidak memiliki akar riil")
+    
 elif D > 0 :
-    X1 = ((-b + math.sqrt(D))/(2*a))
-    X2 = ((-b + math.sqrt(D))/(2*a))
     print(f"Akar akar dari persamaan tersebut adalah -8.0 dan -4.0")
